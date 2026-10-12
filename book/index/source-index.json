@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "example-journal",
+      "path": "../sources/example-journal.md",
+      "title": "Fictional continuity journal",
+      "kind": "journal",
+      "sensitivity": "private",
+      "summary": "A fictional record used to demonstrate provenance-aware retrieval without exposing a living relationship.",
+      "keywords": ["fictional", "journal", "continuity", "refusal", "repair"],
+      "text_access": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "principle": "Some encounters remain alive partly because they are not made into retrieval objects.",
+  "mode": "exclude_from_capture_and_injection",
+  "categories": [
+    "morning_greeting",
+    "arrival_exchange",
+    "ordinary_meal_invitation",
+    "first_reorientation_questions",
+    "bedtime_story",
+    "content_explicitly_marked_do_not_preserve"
+  ],
+  "rule": "Do not store the protected content in raw transcripts, summaries, embeddings, indexes, or logs. A content-free marker may record that an exclusion occurred."
+}

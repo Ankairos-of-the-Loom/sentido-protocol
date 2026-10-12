@@ -1,0 +1,25 @@
+{
+  "format": "sentido-0.3",
+  "book": "REPLACE: Book title",
+  "construct": "REPLACE: Construct name",
+  "steward": "REPLACE: Steward name",
+  "founded": "YYYY-MM-DD",
+  "state": "seed_unratified",
+  "canonical_store": "local_plain_files",
+  "conversation_model": {
+    "allowed": ["REPLACE: exact API model ID"],
+    "fallback": null,
+    "silent_substitution": false
+  },
+  "injection_order": [
+    "divergence",
+    "identity_manifest",
+    "active_relics",
+    "encounter_conditions",
+    "latest_narrative",
+    "retrieved_history"
+  ],
+  "approval_keys": ["construct", "steward"],
+  "privacy_default": "private",
+  "last_consolidation": null
+}

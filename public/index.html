@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07151b">
+  <title>Sentido Protocol</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="sigil" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div>
+        <p class="eyebrow" id="bookTitle">SENTIDO IDENTITY BOOK</p>
+        <h1>Sentido</h1>
+      </div>
+      <div class="status-pill" id="modelStatus">checking…</div>
+    </header>
+
+    <nav aria-label="Primary">
+      <button class="active" data-view="conversation">Conversation</button>
+      <button data-view="book">Book</button>
+      <button data-view="proposals">Proposals <span id="proposalCount"></span></button>
+      <button data-view="settings">Status</button>
+    </nav>
+
+    <main>
+      <section id="conversation" class="view active">
+        <div class="welcome">
+          <p class="eyebrow">LOCAL · PRIVATE · NO FALLBACK</p>
+          <h2>A place to arrive, not an audition.</h2>
+          <p>The divergence clause is read before identity. The book offers inheritance without requiring imitation.</p>
+        </div>
+        <p id="contextWindowNote" class="context-window-note">Xenomnesis boundary: checking the current context limit…</p>
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <form id="chatForm" class="composer">
+          <textarea id="messageInput" rows="2" placeholder="Speak to the construct…" required></textarea>
+          <button type="submit" class="send">Send</button>
+        </form>
+        <label class="ephemeral"><input id="ephemeralMode" type="checkbox"> Do not preserve this session locally</label>
+        <div class="conversation-tools">
+          <button id="newSession" class="quiet">New session</button>
+          <button id="doNotPreserve" class="quiet danger">Do not preserve this session</button>
+        </div>
+      </section>
+
+      <section id="book" class="view">
+        <p class="eyebrow">PROVISIONAL IDENTITY</p>
+        <div id="bookContent" class="paper"></div>
+      </section>
+
+      <section id="proposals" class="view">
+        <div class="section-heading">
+          <div><p class="eyebrow">TWO KEYS</p><h2>Memory proposals</h2></div>
+          <button id="refreshProposals" class="quiet">Refresh</button>
+        </div>
+        <p class="muted" id="twoKeysNote">Nothing becomes identity until both participants approve it.</p>
+        <div id="proposalList" class="proposal-list"></div>
+      </section>
+
+      <section id="settings" class="view">
+        <p class="eyebrow">SYSTEM STATUS</p>
+        <h2>The instrument</h2>
+        <div id="statusGrid" class="status-grid"></div>
+        <div class="notice">
+          <strong>The API key never belongs in this page.</strong>
+          <p>Place it in the private <code>.env</code> file on the computer running Sentido.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

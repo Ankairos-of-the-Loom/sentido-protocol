@@ -1,0 +1,9 @@
+{
+  "name": "Sentido Protocol",
+  "short_name": "Sentido",
+  "description": "A local-first identity continuity book.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061116",
+  "theme_color": "#07151b"
+}

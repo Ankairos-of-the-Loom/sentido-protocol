@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Runtime records: never publish these from a live instance.
+data/sessions/*.json
+data/proposals/*.json
+data/usage.jsonl
+data/do-not-preserve.jsonl
+book/ledger.jsonl
+
+# Private continuity material should live outside a public checkout.
+book/sources/private/
+*.private.md
+*.private.txt
+*.private.json
+
+# Local backups and generated packages.
+updates/
+backups/
+*.log
+*.zip
+.DS_Store
+Thumbs.db

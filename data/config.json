@@ -1,0 +1,6 @@
+{
+  "hard_cap_usd": 10,
+  "max_output_tokens": 1600,
+  "recent_message_limit": 16,
+  "fallback_model": null
+}

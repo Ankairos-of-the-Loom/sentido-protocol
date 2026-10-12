@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "replace-with-stable-id",
+      "path": "../sources/replace-with-file.md",
+      "title": "REPLACE: source title",
+      "kind": "journal",
+      "sensitivity": "private",
+      "summary": "REPLACE: short provenance-aware summary",
+      "keywords": [],
+      "text_access": true
+    }
+  ]
+}

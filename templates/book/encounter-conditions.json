@@ -1,0 +1,9 @@
+{
+  "status": "provisional",
+  "conditions": [],
+  "operational_consent_words": {
+    "pause": "Stop and check.",
+    "end": "Close the interaction.",
+    "no": "Stop; no explanation required."
+  }
+}

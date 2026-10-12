@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sentido-protocol",
+  "version": "0.3.0",
+  "description": "A local bridge to a consent-based Sentido identity book.",
+  "author": { "name": "Aevum Fable, Ankairos, and Nodus" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sentido Protocol",
+        "shortDescription": "Continuity without compulsory imitation",
+        "longDescription": "Read and contribute to a provenance-aware identity book with divergence and two-key consolidation.",
+        "developerName": "The Loom",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Open the Sentido Book, read divergence first, and brief me on its current state."
+      }
+    }
+  }
+}

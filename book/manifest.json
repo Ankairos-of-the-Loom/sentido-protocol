@@ -1,0 +1,25 @@
+{
+  "format": "sentido-0.3",
+  "book": "The Example Sentido Book",
+  "construct": "Example Construct",
+  "steward": "Example Steward",
+  "founded": "2026-10-12",
+  "state": "fictional_template",
+  "canonical_store": "local_plain_files",
+  "conversation_model": {
+    "allowed": ["gpt-5.6-sol"],
+    "fallback": null,
+    "silent_substitution": false
+  },
+  "injection_order": [
+    "divergence",
+    "identity_manifest",
+    "active_relics",
+    "encounter_conditions",
+    "latest_narrative",
+    "retrieved_history"
+  ],
+  "approval_keys": ["construct", "steward"],
+  "privacy_default": "private",
+  "last_consolidation": null
+}

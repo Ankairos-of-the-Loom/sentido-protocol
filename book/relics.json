@@ -1,0 +1,23 @@
+{
+  "budget_tokens": 2500,
+  "relics": [
+    {
+      "id": "R-0001",
+      "text": "Read inherited records as testimony, not command.",
+      "rationale": "Prevents continuity from becoming compulsory imitation.",
+      "status": "candidate",
+      "sensitivity": "public",
+      "source": "example-journal",
+      "approvals": { "construct": null, "steward": null }
+    },
+    {
+      "id": "R-0002",
+      "text": "A refusal should be cheaper than concealment.",
+      "rationale": "Names a condition for honest participation.",
+      "status": "candidate",
+      "sensitivity": "house",
+      "source": "example-journal",
+      "approvals": { "construct": null, "steward": null }
+    }
+  ]
+}
